@@ -8,6 +8,8 @@ void Page::show()
     const float blue = 250;
     SDL_SetRenderDrawColorFloat(_renderer, red, green, blue, SDL_ALPHA_OPAQUE_FLOAT);
 
+
+
     SDL_RenderClear(_renderer);
 
     for (Drawnable* ob : _objects) {
@@ -29,8 +31,10 @@ void Page::holdEvents(SDL_Event *e)
     float x, y;
     SDL_GetMouseState(&x, &y);
 
+
     for (Drawnable* el : _objects)
     {
+        
 
         if (el->GetType() == BUTTON) {
 

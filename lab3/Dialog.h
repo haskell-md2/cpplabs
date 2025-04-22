@@ -1,16 +1,17 @@
 #pragma once
 
-#include <string>
-#include <SDL3/SDL.h>
+#include "Drawnable.h"
+
 
 class Dialog
 {
 	private:
 		SDL_Window * _win;
+		SDL_Renderer* _rend;
 		std::string _title, _msg;
 
 	public:
-		Dialog(std::string title, std::string msg, SDL_Window * win) : _title(title), _msg(msg), _win(win){}
+		Dialog(std::string title, std::string msg) : _title(title), _msg(msg), _win(NULL), _rend(NULL) {};
 		void Show();
 };
 

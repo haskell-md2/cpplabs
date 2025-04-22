@@ -132,17 +132,21 @@
   <ItemGroup>
     <ClCompile Include="Button.cpp" />
     <ClCompile Include="Dialog.cpp" />
+    <ClCompile Include="DialogButton.cpp" />
     <ClCompile Include="GVector.cpp" />
     <ClCompile Include="lab3.cpp" />
     <ClCompile Include="Label.cpp" />
+    <ClCompile Include="NaviagetButton.cpp" />
     <ClCompile Include="Page.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Button.h" />
     <ClInclude Include="Dialog.h" />
+    <ClInclude Include="DialogButton.h" />
     <ClInclude Include="Drawnable.h" />
     <ClInclude Include="GVector.h" />
     <ClInclude Include="Label.h" />
+    <ClInclude Include="NaviagetButton.h" />
     <ClInclude Include="Page.h" />
   </ItemGroup>
   <ItemGroup>

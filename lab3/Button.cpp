@@ -58,10 +58,3 @@ bool Button::inArea(float x, float y)
 
 }
 
-void Button::ClickAction()
-{
-	if (_fun) {
-		_fun(_params);
-	}
-
-}
